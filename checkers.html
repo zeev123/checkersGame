@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styleSheet/checkers.css" />
+    <link rel="icon" href="./images/checker.png" />
+    <title>Chackers Game</title>
+  </head>
+  <body id="myBody">
+    <div class="main-screen">
+      <div class="actions" id="actions">
+        <h2 id="gameStatusMsg" class="none">geme over</h2>
+        <button class="resignButton" id="resignButton">resign</button>
+        <h2 class="turnMsg" id="turnMsg">White Turn</h2>
+        <button class="drawButton" id="drawButton">draw</button>
+      </div>
+      <div class="board-container" id="board"></div>
+      <div id="modal" class="none">
+        <h3 id="Modalh3"></h3>
+        <hr />
+        <div class="divBottons" id="divBottons">
+          <button id="buttonYes">yes</button>
+          <button id="noButton">no</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./checkers.js"></script>
+  </body>
+</html>
